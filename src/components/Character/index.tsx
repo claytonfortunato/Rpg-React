@@ -5,6 +5,8 @@ type Props = {
   y: number;
 };
 
-export const Character = ({ x, y }) => {
-  return <C.Container>...</C.Container>;
+export const Character = ({ x, y }: Props) => {
+  const size = 30;
+
+  return <C.Container size={size} left={x * size} top={y * size}></C.Container>;
 };

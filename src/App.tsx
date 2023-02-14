@@ -5,7 +5,7 @@ const App = () => {
   return (
     <C.Container>
       <C.Map>
-        <Character x={30} y={30} />
+        <Character x={6} y={4} />
       </C.Map>
     </C.Container>
   );
